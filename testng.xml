@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <suite-files>
+        <suite-file path="Sprint_01_Login.xml"/>
+        <suite-file path="Sprint_02_Add new admin.xml"/>
+        <suite-file path="Sprint_03_Navigate to organization structure.xml"/>
+        <suite-file path="Sprint_04_Search for leaves.xml"/>
+    </suite-files>
+</suite>

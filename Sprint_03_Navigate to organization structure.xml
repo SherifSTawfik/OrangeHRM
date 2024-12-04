@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sprint 03">
+    <test verbose="2" preserve-order="true" name="C:/Users/habib/IdeaProjects/OrangeHRM">
+        <classes>
+            <class name="tests.TC01_LoginPage">
+                <methods>
+                    <include name="enterLoginCred"/>
+                </methods>
+            </class>
+            <class name="tests.TC02_HomaPage_Dashboard">
+                <methods>
+                    <include name="navigateToAdminTab"/>
+                </methods>
+            </class>
+            <class name="tests.TC03_AdminPage">
+                <methods>
+                    <include name="navigateToOrg"/>
+                </methods>
+            </class>
+            <class name="tests.TC04_Admin_Org_Structure">
+                <methods>
+                    <include name="getValueUnderEngTab"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
