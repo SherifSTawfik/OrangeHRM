@@ -59,7 +59,7 @@ The test environment for automation testing is as follows:
 To set up the OrangeHRM website locally, follow these steps:
 
 1. Clone the repository:
-*   git clone https://github.com/SherifSTawfik/Automation-Exercise-Website.git
+*   git clone https://github.com/SherifSTawfik/OrangeHRM.git
 2. Navigate to the project directory:
 *   cd OrangeHRM
 3. Install dependencies:
